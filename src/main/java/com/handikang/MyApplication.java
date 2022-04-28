@@ -10,8 +10,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 public class MyApplication {
     public static void main(String[] args) {
-        ConfigurableApplicationContext applicationContext = SpringApplication.run(MyApplication.class);
-        UserService userService= applicationContext.getBean(UserService.class);
-        userService.test();
+       SpringApplication.run(MyApplication.class);
+
     }
 }
